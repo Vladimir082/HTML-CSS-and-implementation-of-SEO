@@ -1,0 +1,130 @@
+<!DOCTYPE>
+<?php
+session_start();
+include("functions/functions.php");
+
+?>
+
+<html>
+
+<head>
+	<title> Rent a Tent website</title>
+	<link rel="stylesheet" href="styles/style.css" media="all"/>
+</head>
+
+<body>
+	<!--Main container - start-->
+	<div class="main_wrapper">
+
+		<!--Header - start-->
+		<div id="form">
+				<form method="get" action="results.php" enctype="multipart/form-data">
+					<input type="text" name="user_query" placeholder="Search a Product"/>
+					<input type="submit" name="search" value="Search"/>
+				</form>
+
+		</div>
+		<div class="header_wrapper">
+			<a href="index.html"><img id="logo" src="images/logo.png" alt="logo tent,nature"/></a>
+		
+		</div>
+		<!--Header - end-->
+
+		<!--Navigation bar - start-->
+		<div class="menubar">
+			<ul id="menu">
+				<li><a href="index.html">Home</a>
+				</li>
+				<li><a href="history.html">History</a>
+				</li>
+				<li><a href="rent.html">Rent a Tent</a>
+				</li>
+				<li><a href="contact_us.html">Contact us</a>
+			</ul>
+		</div>
+		<!--Navigation bar - end-->
+
+		<!--Content wrapper - start-->
+		<div class="content_wrapper">
+			<div id="sidebar">
+				<div id="sidebar_title"> Categories</div>
+				<ul id="cats">
+				</ul>
+			
+			<ul id="all_products"> 
+				<li><a href="tent1.html">1 person tent</a></li>
+		    </ul>
+			<ul id="all_products"> 
+				<li><a href="tent2_3.html">2-3 Person Tent</a></li>
+		    </ul>
+			
+			<ul id="all_products"> 
+				<li><a href="tent4.html">4 Person Tent</a></li>
+		    </ul>
+			<ul id="all_products"> 
+				<li><a href="family_tent.html">Big Family Tent</a></li>
+		    </ul><br>
+            <div id="sidebar_title"> Useful Links:</div>
+			<ul id="all_products"> 
+				<li><a target= new href="http://cmpproj.cms.livjm.ac.uk/cmpechip">Learn about The British Isles Road Trip</a></li>
+		    </ul>
+            <ul id="all_products"> 
+				<li><a target= new href="http://cmpproj.cms.livjm.ac.uk/cmpogrog/">Learn about The <b>Siam</b> Hotspots</a></li>
+		    </ul>
+			<ul id="all_products"> 
+				<li><a target= new href="http://cmpproj.cms.livjm.ac.uk/cmpyrobe/">Learn about The Dog as a Pet</a></li>
+		    </ul>
+			<ul id="all_products"> 
+				<li><a target= new href="http://cmpproj.cms.livjm.ac.uk/cmpkhart/">All what you need to know about The Movies</a></li>
+		    </ul>
+			<ul id="all_products"> 
+				<li><a target= new href="http://cmpproj.cms.livjm.ac.uk/cmpmbaik">Learn about The Fresh Air</a></li>
+		    </ul>
+			<ul id="all_products"> 
+				<li><a target= new href="http://cmpproj.cms.livjm.ac.uk/cmpsnowa">Learn about The Shoes</a></li>
+		    </ul>
+			</div>
+			<div id="content_area">
+			<section >
+				<article style="width:80%; margin:auto">
+
+					<h2 style="text-align:center; padding-top: 15px;"> How to Rent a Tent</h2><br>
+
+					<h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Why to pay for a tent if you use only sometime and cost you fortune? and another problem is to 
+store somewhere! We have better solution which save your money and save your storege!  Rent a Tent!</h4><br>
+					<h4 style="text-align:center; padding-top: 10px;"><u>What you need to do? </u></h4><br>
+					<h4 style="text-align:center; padding-top: 5px;">It is very simple! Follow steps:</h4><br>
+					<h4 style="text-align:center; padding-top: 5px;">Step 1:Choose a category.</h4>
+					<h4 style="text-align:center; padding-top: 5px;">Step 2:Click on the choosen category.</h4>
+					<h4 style="text-align:center; padding-top: 5px;">Step 3:Click on the button 'Rent A Tent' .</h4>
+					<h4 style="text-align:center; padding-top: 5px;">Step 4:Specify: how many days you want rent,when it can be deliver to you and finaly when it can be return from you.</h4>
+					<h4 style="text-align:center; padding-top: 5px;">Step 5:Click on the button 'Rent A Tent'.</h4>
+					<h4 style="text-align:center; padding-top: 5px;">Step 6:Enjoy camping with family,friends.</h4>
+					</h4>
+					<br>
+					<h4 style="text-align:center; padding-top: 20px;"><u> Simple way how to rent a tent!</u></h4><br>
+					<picture>
+						<p style="text-align:center;"><img src="images/tents.png" height="150" width="350" alt="n">
+					</picture><br>
+					<h4 style="text-align:center; padding-top: 20px;"><u> Do not hesitate and contact us!</u></h4><br><br>
+				     <h6 style="text-align:center; padding-top: 5px;">Enjoy camping life style with family or friends.</h6>
+				
+
+				</article>
+			</section>
+			</div>
+				
+			
+                  
+		<div id="footer">
+			<h2 style="text-align:center; padding-top: 30px;">&copy; 2018 by Rent a Tent
+			</h2>
+			
+		</div>
+     </div>
+	
+	<!--Main container - end-->
+</body>
+
+</html>

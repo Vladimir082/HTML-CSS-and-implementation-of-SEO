@@ -1,0 +1,94 @@
+<!DOCTYPE>
+<?php
+session_start();
+include("functions/functions.php");
+
+?>
+
+<html>
+
+<head>
+	<title> Two-Three Person Tent</title>
+	<link rel="stylesheet" href="styles/style.css" media="all"/>
+</head>
+
+<body>
+	<!--Main container - start-->
+	<div class="main_wrapper">
+
+		<!--Header - start-->
+		<div id="form">
+				<form method="get" action="results.php" enctype="multipart/form-data">
+					<input type="text" name="user_query" placeholder="Search a Product"/>
+					<input type="submit" name="search" value="Search"/>
+				</form>
+
+		</div>
+		<div class="header_wrapper">
+			<a href="index.html"><img id="logo" src="images/logo.png"/></a>
+		
+		</div>
+		<!--Header - end-->
+
+		<!--Navigation bar - start-->
+		<div class="menubar">
+			<ul id="menu">
+				<li><a href="index.html">Home</a>
+				</li>
+				<li><a href="history.html">History</a>
+				</li>
+				<li><a href="rent.html">Rent a Tent</a>
+				</li>
+				<li><a href="contact_us.html">Contact us</a>
+			</ul>
+		</div>
+		<!--Navigation bar - end-->
+
+		<!--Content wrapper - start-->
+		<div class="content_wrapper">
+			<div id="sidebar">
+				<div id="sidebar_title"> Categories</div>
+				<ul id="cats">
+				</ul>
+			
+			<ul id="all_products"> 
+				<li><a href="tent1.html">1 person tent</a></li>
+		    </ul>
+			<ul id="all_products"> 
+				<li><a href="tent2_3.html">2-3 Person Tent</a></li>
+		    </ul>
+			
+			<ul id="all_products"> 
+				<li><a href="tent4.html">4 Person Tent</a></li>
+		    </ul>
+			<ul id="all_products"> 
+				<li><a href="family_tent.html">Big Family Tent</a></li>
+		    </ul>
+			</div>
+			<div id="content_area">
+			<h4 style="text-align:center; padding-top: 20px;"><u>Two-Three Persons Tent. </u></h4><br><br>	
+			<p style="text-align:center;"><img src="images/2-3tent.png" height="300" width="500" alt="n">
+			<h4 style="text-align:center; padding-top: 20px;">Very easy light tent which is ideal for two or three persons. You dont feel that you caryy something.all parameters you can find on the picture. </h4><br>
+            <td colspan="3"><br><br><br><br> <button onClick="myFunction()" style="background-color:#dbff3d; margin-left:auto;margin-right:auto;display:block;margin-top:0%;margin-bottom:0%;padding:15px 32px;"><strong>Rent A Tent by Email Now!</strong></button>
+			<script>
+            function myFunction() {
+            location.href = "rent.tent084@gmail.com";
+             }
+             </script><br><br>	
+			</td>
+			</div>
+				
+			
+			</div>
+                  
+		<div id="footer">
+			<h2 style="text-align:center; padding-top: 30px;">&copy; 2018 by Rent a Tent
+			</h2>
+			
+		</div>
+     </div>
+	
+	<!--Main container - end-->
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://cmpproj.cms.livjm.ac.uk/cmpvkosi/index.html</title>
+  <link>http://cmpproj.cms.livjm.ac.uk/cmpvkosi/index.html</link>
+
+<item>
+     <link>http://cmpproj.cms.livjm.ac.uk/cmpvkosi/index.html</link>
+     <title>Rent a Tent Home</title>
+     <description>Tent: All you need to know about tent and rent a tent</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cmpproj.cms.livjm.ac.uk/cmpvkosi/history.html</link>
+     <title> History of the tent </title>
+     <description> History of the tent </description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cmpproj.cms.livjm.ac.uk/cmpvkosi/rent.html</link>
+     <title> Rent a Tent website</title>
+     <description> Rent a Tent website</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cmpproj.cms.livjm.ac.uk/cmpvkosi/contact_us.html</link>
+     <title> Contact us Rent a Tent</title>
+     <description> Contact us Rent a Tent</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cmpproj.cms.livjm.ac.uk/cmpvkosi/tent1.html</link>
+     <title> Rent a Tent</title>
+     <description> Rent a Tent</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cmpproj.cms.livjm.ac.uk/cmpvkosi/tent2_3.html</link>
+     <title> Rent a Tent</title>
+     <description> Rent a Tent</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cmpproj.cms.livjm.ac.uk/cmpvkosi/tent4.html</link>
+     <title> Rent a Tent</title>
+     <description> Rent a Tent</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://cmpproj.cms.livjm.ac.uk/cmpvkosi/family_tent.html</link>
+     <title> Rent a Tent</title>
+     <description> Rent a Tent</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
